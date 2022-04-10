@@ -6,7 +6,7 @@
     </ul>
     <form @submit.prevent="uploadPhoto" id="uploadForm">
         <label for="description">Description</label>
-        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <textarea name="description" id="description" cols="30" rows="1"></textarea>
         <br>
         <label for="photo">Photo Upload</label>
         <input type="file" id="photo" name="photo">
