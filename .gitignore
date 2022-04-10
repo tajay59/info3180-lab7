@@ -26,10 +26,12 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+node_modules
 
 # Python
 __pycache__
 venv
+lab7_env
 
 # Environment Variables
 .env
